@@ -4,4 +4,4 @@
 在运行程序前，请先在jiaoxue/src这个目录下找到Login.java文件，然后在文件中找到Jdbc这个类，找到以下两行代码
 	String name = "root";
 	String passwd = "123456";
-name和passwd是运行代码电脑上的数据库名称和数据库密码。
+将name和passwd修改为运行代码的电脑上的数据库名称和数据库密码。
