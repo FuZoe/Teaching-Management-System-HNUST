@@ -10,9 +10,9 @@ Project Introduction: Every semester, the school will offer certain courses for 
 		String passwd = "123456";  
 将name和passwd的值全部修改（注意：是每一处都需要修改）为运行代码的电脑上的数据库名称和数据库密码。  
 
-Notes:  
-This code is run in Java, and the operating principle is to use the JDBC component to connect to the local database.  
-Before running the program, please find the Login.java file in the jiaoxue/src directory, then find the Jdbc class in the file and find the following two lines of code:  
-		String name = "root";  
-		String passwd = "123456";  
-Change the values ​​of 'name' and 'passwd' to the database name and database password on the computer running the code.  
+Notes:
+This code is run using Java, and the operating principle is to use the JDBC component to connect to the local database.
+Before running the program, please find the following two lines of code in all .java files in the jiaoxue/src directory:
+		String name = "root";
+		String passwd = "123456";
+Change all the values ​​of name and passwd (note: every place needs to be changed) to the database name and database password on the computer running the code.
