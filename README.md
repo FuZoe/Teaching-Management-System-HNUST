@@ -5,10 +5,10 @@ Project Introduction: Every semester, the school will offer certain courses for 
 
 使用须知：  
 本代码使用Java运行，运行原理是使用JDBC组件链接本机数据库。  
-在运行程序前，请先在jiaoxue/src这个目录下找到Login.java文件，然后在文件中找到Jdbc这个类，找到以下两行代码:  
+在运行程序前，请先在jiaoxue/src这个目录下中所有的.java文件，找到以下两行代码:  
 		String name = "root";  
 		String passwd = "123456";  
-将name和passwd的值修改为运行代码的电脑上的数据库名称和数据库密码。  
+将name和passwd的值全部修改（注意：是每一处都需要修改）为运行代码的电脑上的数据库名称和数据库密码。  
 
 Notes:  
 This code is run in Java, and the operating principle is to use the JDBC component to connect to the local database.  
